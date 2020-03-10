@@ -2,9 +2,9 @@ require 'pry'
 
 def hello(array)
   i = 0
+  collecton = []
   while i < array.length
-  binding.pry
-    yield(array[i])
+    collecton << yield(array[i])
     i += 1
   end
 end
