@@ -7,6 +7,7 @@ def hello(array)
     collecton << yield(array[i])
     i += 1
   end
+  collecton
 end
 
 binding.pry
